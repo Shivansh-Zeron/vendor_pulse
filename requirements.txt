@@ -4,3 +4,5 @@ langchain-community
 langchain-groq
 PyPDF2 
 PyMuPDF 
+langchain-core
+pypdf
