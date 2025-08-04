@@ -1,0 +1,387 @@
+{
+  "Access Control": [
+    {
+      "question": "Do you implement role-based access control (RBAC) for all system users?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Describe your user account provisioning and de-provisioning procedures.",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "Do you enforce multi-factor authentication for all privileged accounts?",
+      "question_type": "single_choice",
+      "question_weight": 0.9
+    },
+    {
+      "question": "How frequently do you review and update user access permissions?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you maintain segregation of duties for critical business functions?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    },
+    {
+      "question": "What password policies and complexity requirements do you enforce?",
+      "question_type": "text",
+      "question_weight": 0.5
+    },
+    {
+      "question": "Do you implement least privilege access principles across all systems?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "How do you monitor and log privileged user activities?",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "Do you have automated account lockout mechanisms for failed login attempts?",
+      "question_type": "single_choice",
+      "question_weight": 0.6
+    },
+    {
+      "question": "What procedures do you have for emergency access to critical systems?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you conduct regular access certification and recertification processes?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    }
+  ],
+  "Asset Management": [
+    {
+      "question": "Do you maintain a comprehensive inventory of all IT assets including hardware and software?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Describe your asset classification scheme and data labeling procedures.",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "How do you track asset ownership and custodianship responsibilities?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you implement automated asset discovery and inventory management tools?",
+      "question_type": "single_choice",
+      "question_weight": 0.6
+    },
+    {
+      "question": "What procedures do you have for secure asset disposal and data sanitization?",
+      "question_type": "text",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Do you maintain asset configuration baselines and change tracking?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    },
+    {
+      "question": "How do you handle asset lifecycle management from procurement to disposal?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you have established procedures for handling lost or stolen assets?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    },
+    {
+      "question": "What software license management processes do you maintain?",
+      "question_type": "text",
+      "question_weight": 0.5
+    },
+    {
+      "question": "Do you conduct regular physical asset audits and reconciliation?",
+      "question_type": "single_choice",
+      "question_weight": 0.6
+    },
+    {
+      "question": "How do you manage and track mobile devices and remote access equipment?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you implement asset tagging and tracking for all company-owned equipment?",
+      "question_type": "single_choice",
+      "question_weight": 0.5
+    },
+    {
+      "question": "What controls do you have for personal device usage in corporate environments?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you maintain records of asset maintenance, updates, and patches?",
+      "question_type": "single_choice",
+      "question_weight": 0.6
+    },
+    {
+      "question": "How do you ensure proper asset accountability during employee transitions?",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "Do you have procedures for handling third-party assets in your environment?",
+      "question_type": "single_choice",
+      "question_weight": 0.5
+    },
+    {
+      "question": "What asset recovery and business continuity procedures do you maintain?",
+      "question_type": "text",
+      "question_weight": 0.7
+    }
+  ],
+  "Business Continuity": [
+    {
+      "question": "Do you have a formally documented business continuity plan that is regularly tested?",
+      "question_type": "single_choice",
+      "question_weight": 0.9
+    },
+    {
+      "question": "Describe your business impact analysis methodology and critical process identification.",
+      "question_type": "text",
+      "question_weight": 0.8
+    },
+    {
+      "question": "What are your defined Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO)?",
+      "question_type": "text",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Do you maintain alternate site facilities for critical business operations?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    },
+    {
+      "question": "How do you ensure staff availability and communication during business disruptions?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you conduct annual business continuity exercises and document lessons learned?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    }
+  ],
+  "Cloud Services Management": [
+    {
+      "question": "Do you have established policies and procedures for cloud service provider selection and management?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Describe your cloud security architecture and shared responsibility model implementation.",
+      "question_type": "text",
+      "question_weight": 0.9
+    }
+  ],
+  "Communications Security": [
+    {
+      "question": "Do you encrypt all data transmissions over public networks and the internet?",
+      "question_type": "single_choice",
+      "question_weight": 0.9
+    },
+    {
+      "question": "Describe your network segmentation and firewall management procedures.",
+      "question_type": "text",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Do you implement secure protocols (TLS/SSL) for all external communications?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "How do you secure wireless networks and prevent unauthorized access?",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "Do you have network intrusion detection and prevention systems in place?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    },
+    {
+      "question": "What email security measures do you implement to prevent phishing and malware?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you monitor network traffic for anomalous activities and security threats?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    }
+  ],
+  "Compliance": [
+    {
+      "question": "Are you compliant with all applicable regulatory requirements for your industry?",
+      "question_type": "single_choice",
+      "question_weight": 0.9
+    },
+    {
+      "question": "Describe your process for identifying and tracking regulatory changes.",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "Do you undergo regular third-party compliance audits and assessments?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "How do you ensure employee awareness and training on compliance requirements?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you maintain documented policies and procedures for all compliance areas?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    },
+    {
+      "question": "What compliance monitoring and reporting mechanisms do you have in place?",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "Do you have a designated compliance officer or team responsible for oversight?",
+      "question_type": "single_choice",
+      "question_weight": 0.6
+    },
+    {
+      "question": "How do you handle compliance violations and corrective action procedures?",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "Do you maintain compliance documentation and evidence for audit purposes?",
+      "question_type": "single_choice",
+      "question_weight": 0.6
+    },
+    {
+      "question": "What industry certifications and attestations do you currently maintain?",
+      "question_type": "text",
+      "question_weight": 0.8
+    }
+  ],
+  "Context of the Organization": [
+    {
+      "question": "Describe your organizational structure, governance model, and key stakeholder relationships.",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you have established information security policies approved by senior management?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "How do you define and communicate your organization's risk appetite and tolerance levels?",
+      "question_type": "text",
+      "question_weight": 0.7
+    }
+  ],
+  "Cryptography": [
+    {
+      "question": "Do you implement industry-standard encryption algorithms and key management practices?",
+      "question_type": "single_choice",
+      "question_weight": 0.9
+    },
+    {
+      "question": "Describe your cryptographic key lifecycle management and protection procedures.",
+      "question_type": "text",
+      "question_weight": 0.8
+    }
+  ],
+  "Data Management": [
+    {
+      "question": "Do you have established data classification and handling procedures?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Describe your data retention, archival, and secure deletion policies.",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "How do you ensure data integrity and prevent unauthorized data modification?",
+      "question_type": "text",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Do you implement data loss prevention (DLP) controls and monitoring?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    },
+    {
+      "question": "What backup and recovery procedures do you maintain for critical data?",
+      "question_type": "text",
+      "question_weight": 0.8
+    }
+  ],
+  "Development Security": [
+    {
+      "question": "Do you implement secure software development lifecycle (SDLC) practices?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Describe your code review, testing, and vulnerability assessment procedures.",
+      "question_type": "text",
+      "question_weight": 0.8
+    },
+    {
+      "question": "Do you maintain separate development, testing, and production environments?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    },
+    {
+      "question": "How do you handle secure coding standards and developer security training?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you implement automated security testing in your development pipeline?",
+      "question_type": "single_choice",
+      "question_weight": 0.7
+    },
+    {
+      "question": "What change management and version control procedures do you follow?",
+      "question_type": "text",
+      "question_weight": 0.6
+    },
+    {
+      "question": "Do you conduct regular penetration testing and security assessments of applications?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "How do you manage third-party components and open source software security?",
+      "question_type": "text",
+      "question_weight": 0.7
+    },
+    {
+      "question": "Do you have established procedures for handling security vulnerabilities in production?",
+      "question_type": "single_choice",
+      "question_weight": 0.8
+    },
+    {
+      "question": "What documentation and security requirements do you maintain for custom applications?",
+      "question_type": "text",
+      "question_weight": 0.5
+    }
+  ]
+}
